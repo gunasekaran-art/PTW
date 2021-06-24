@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" ng-app="myApp">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages</title>
+  <link rel="icon" href="css\images\icon.ico" type="image/ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style_packages.css">
+</head>
+
+<body ng-app="myApp">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="options">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sea">Beaches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mount">
+              Heritage
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#landscapes">Adventure Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="checkout.html">
+              Checkout
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="tours">
+    <h1 id="sea">Beaches</h1>
+    <div class="card-deck topc">
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\rock beach.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Rock Beach</h5>
+          <p class="card-text">Rock Beach, often referred to as the Promenade Beach or Pondicherry Beach is a beachfront located along the Bay of Bengal. The coastline of this beach is 1.5 km long and starts at the War Memorial built at the beginning of the beach, while ends at the Dupleix Park built at the Goubert Avenue. Unfortunately, this beach is not open for taking dips in the sea or any water sport activities, but many visit the place during sunrise and sunset for walking, jogging or taking a stroll. </p>
+          <a href="Andaman.html"><button type="button" id="amazon" class="btn btn-outline-primary">Gallery</button></a>
+          <div ng-view></div>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\paradise beach.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Paradise Beach</h5>
+          <p class="card-text"> A relaxing vacation at a beach is something which is perhaps the most enduring experience one can have. At Paradise Beach, this experience gets even more surreal with choice of benefits this place offers to its visitors. Chunnambar is the official name of the Paradise Beach which is known by very few tourists; the beach has got the name ‘Paradise’ because of its tranquil and peaceful setting that perfectly depicts the meaning of its name.</p>
+          <a href="Reef.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\auroville 1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Auroville Beach</h5>
+          <p class="card-text">Auroville Beach is a prominent beach, situated near to Auroville in Pondicherry. Located at about 12 km from Pondicherry, it is an ideal place for weekend getaways. Popularly known among the locals as Auro Beach, it offers a picturesque landscape with the crystal blue waters and the phenomenal sunrise and sunset. 
+
+
+</p>
+          <a href="Caves.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+    </div>
+    <h1 id="mount">Heritage</h1>
+    <div class="card-deck">
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\old light1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Old Light House</h5>
+          <p class="card-text">Old Lighthouse is located just opposite to the famous Gandhi Statue on the Beach Road in Pondicherry. Originally, the Lighthouse traces its history from the year 1836. It was built by one of the renowned engineers of that time, L. Guerre. Built above a rectangular platform, the Lighthouse was a fluted construction with a height of 29 m.</p>
+          <a href="antelope.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\gandhi 1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Mahatma Gandhi Statue</h5>
+          <p class="card-text">Mahatma Gandhi Statue Pondicherry
+
+At Promenade Beach, the statue of Mahatma Gandhi - Father of the Nation, is one of the main landmarks in the territory of Pondicherry. The statue was built by a popular sculptor, Roy Choudhary. Apart from the statue itself, the main highlight of this popular tourist site in Pondicherry is the eight beautiful carved pillars that surround the statue of Mahatma Gandhi.</p>
+          <a href="fuji.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\french1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">French War Memorial</h5>
+          <p class="card-text">Pondicherry is a historical settlement which is dotted with numerous places of historical importance. Of those numerous, one very important place of tourist interest in Pondicherry is the French War Memorial. Situated on the Goubert Avenue, the French War Memorial commemorates all those valorous soldiers who sacrificed their lives for their countries in the World War I.</p>
+          <a href="himalaya.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+    </div>
+    <h1 id="landscapes">Adventure Sports</h1>
+    <div class="card-deck topc">
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\rock1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Rock Climbing</h5>
+          <p>Whatever you may need, Pondicherry will ensure you get it. From a plethora of adventure activities to choose from, Pondicherry is a picture perfect destination for you. One of the best things to do in Pondicherry is rock climbing.</p>
+          <a href="azores.html"><button type="button" id="amazon" class="btn btn-outline-primary">Gallery</button></a>
+          <div ng-view></div>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\bird1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Bird Watching</h5>
+          <p class="card-text">Being one of the best bird watching destinations in South India, Pondicherry holds a great opportunity for bird lovers. There are a variety of birds found in Pondicherry, from the rose ringed parakeet to the white breasted kingfisher.</p>
+          <a href="iceland.html"><button type="button" class="btn btn-outline-primary">Gallery
+            </button></a>
+        </div>
+      </div>
+      <div class="card" id="cards">
+        <img class="card-img-top" src="css\images\water1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title" id="name">Water Sports Adventures</h5>
+          <p> With its pristine beaches and tranquil atmosphere, Pondicherry is becoming a trending beach destination in India and with the scintillating beaches come a plethora of water sports options. Adventure travelling is a unique journey of discovering the self and the place.</p>
+          <a href="amazon.html"><button type="button" class="btn btn-outline-primary">Gallery</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class='f'>© Mohit 2020</p>
+  </footer>
+  <script type="text/javascript">
+    function myFunction()
+    {
+      var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      // ul = document.getElementById("tours");
+      li = document.getElementById("cards");
+      for (i = 0; i < li.length; i++)
+      {
+        a = li[i].getElementsById("name")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1)
+        {
+          li[i].style.display = "";
+        }
+        else
+        {
+          li[i].style.display = "none";
+        }
+      }
+    }
+  </script>
+
+</body>
+
+</html>
